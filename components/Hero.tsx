@@ -21,7 +21,7 @@ export default function Hero() {
             className="section-eyebrow"
           >
             <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse-slow" />
-            Introduction
+            Hello, I&apos;m
           </motion.p>
 
           <motion.h1
@@ -105,7 +105,7 @@ export default function Hero() {
         </div>
 
         <div className="relative flex justify-center lg:justify-end">
-          <div className="relative w-[min(72vw,280px)] sm:w-[340px]">
+          <div className="relative w-[280px] sm:w-[340px]">
             <div className="absolute inset-0 -z-10 scale-125">
               <NetworkDiagram />
             </div>

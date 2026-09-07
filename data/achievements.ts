@@ -3,6 +3,7 @@ export interface Achievement {
   org: string;
   description: string;
   image: string | null;
+  certificateUrl?: string;
   tags: string[];
 }
 
@@ -12,7 +13,8 @@ export const achievements: Achievement[] = [
     org: "Indian Institute of Technology Roorkee",
     description:
       "Represented THOMSO '25, the annual cultural festival of IIT Roorkee, at my institution — promoting the festival and engaging with the student community.",
-    image: "/images/achievements/thomso25-campus-ambassador.jpg",
+    image: null,
+    certificateUrl: "/images/achievements/thomso25-campus-ambassador.jpg",
     tags: ["Outreach", "Representation", "Communication"],
   },
   {

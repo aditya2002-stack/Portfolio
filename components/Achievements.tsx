@@ -11,7 +11,7 @@ export default function Achievements() {
           <p className="section-eyebrow">
             <span className="w-1.5 h-1.5 rounded-full bg-accent" /> 07 · Achievements
           </p>
-          <h2 className="section-heading">Achievements</h2>
+          <h2 className="section-heading">Beyond the terminal</h2>
         </Reveal>
 
         <div className="grid sm:grid-cols-2 gap-5">
@@ -25,16 +25,16 @@ export default function Achievements() {
                   <h3 className="font-display text-base font-semibold text-ink leading-snug">{a.title}</h3>
                   <p className="mt-0.5 text-sm text-accent">{a.org}</p>
                   <p className="mt-2 text-sm text-ink-muted leading-relaxed">{a.description}</p>
-                  <div className="mt-3 flex flex-wrap items-center gap-1.5">
+                  <div className="mt-3 flex flex-wrap gap-1.5">
                     {a.tags.map((t) => (
                       <span key={t} className="font-mono text-[11px] px-2 py-0.5 rounded-md bg-surface-alt text-ink-faint">
                         {t}
                       </span>
                     ))}
                   </div>
-                  {a.image && (
+                  {a.certificateUrl && (
                     <a
-                      href={a.image}
+                      href={a.certificateUrl}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="mt-3 inline-flex items-center gap-1.5 text-sm text-accent hover:gap-2 transition-all"

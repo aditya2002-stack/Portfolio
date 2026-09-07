@@ -22,13 +22,13 @@ export default function Contact() {
           <div className="card p-6 sm:p-8 space-y-3">
             <a
               href={`mailto:${profile.email}`}
-              className="flex flex-col gap-1.5 bg-accent text-bg font-medium px-5 py-4 rounded-lg hover:bg-accent-dim transition-colors"
+              className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 sm:gap-3 bg-accent text-bg font-medium px-5 py-4 rounded-lg hover:bg-accent-dim transition-colors"
             >
               <span className="flex items-center gap-3">
                 <Mail size={18} />
                 Email Me
               </span>
-              <span className="text-sm font-mono opacity-80">{profile.email}</span>
+              <span className="text-sm opacity-80 break-all sm:break-normal">{profile.email}</span>
             </a>
 
             <a

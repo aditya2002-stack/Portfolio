@@ -11,7 +11,7 @@ export default function Skills() {
           <p className="section-eyebrow">
             <span className="w-1.5 h-1.5 rounded-full bg-accent" /> 02 · Skills
           </p>
-          <h2 className="section-heading">Technical Skills</h2>
+          <h2 className="section-heading">Skills</h2>
           <div className="flex items-center gap-4 mb-10 font-mono text-xs text-ink-faint">
             <span className="flex items-center gap-1.5">
               <span className="w-2 h-2 rounded-sm bg-accent" /> Hands-on
@@ -43,7 +43,7 @@ export default function Skills() {
         <Reveal delay={0.1}>
           <div className="mt-8 pt-8 border-t border-border-soft">
             <p className="font-mono text-xs text-ink-faint mb-3">
-              // supporting background — full-stack web development
+              Supporting background — full-stack web development
             </p>
             <div className="flex flex-wrap gap-2">
               {supportingSkills.map((s) => (

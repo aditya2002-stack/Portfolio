@@ -49,7 +49,7 @@ export default function Navbar() {
     >
       <div className="mx-auto max-w-6xl px-6 sm:px-8 flex items-center justify-between h-16">
         <a href="#top" className="font-mono text-sm text-ink tracking-wide">
-          Aditya Verma
+          <span className="text-accent">$</span> aditya-verma
         </a>
 
         <nav className="hidden md:flex items-center gap-1">

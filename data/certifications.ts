@@ -25,7 +25,7 @@ export const certifications: Certification[] = [
     name: "Solutions Architecture Job Simulation",
     issuer: "Forage",
     date: "December 7, 2024",
-    url: null,
+    url: "https://drive.google.com/file/d/1fASIMb1IIT-T5F-S_RnoE5ly3QBRbjfc/view?usp=sharing",
     image: "/images/certifications/forage-solutions-architecture.jpg",
   },
 ];
